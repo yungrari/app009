@@ -100,7 +100,7 @@ export default function Home() {
           <div className={styles.card}>
             <h3 className={inter.className}>
               <a
-                href="https://confermadesign.com"
+                href="https://galagan.ua/en/project/conferma"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -110,7 +110,7 @@ export default function Home() {
             <p className={inter.className}>
               Created in collaboration with{' '}
               <a
-                href="https://galagan.ua/en/project/conferma"
+                href="https://galagan.ua/en"
                 target="_blank"
                 rel="noopener noreferrer"
               >
