@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
@@ -122,9 +123,14 @@ export default function Home() {
 
           <div className={styles.card}>
             <h3 className={inter.className}>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="project002.jpg"
+                target="_blank"
+                rel="noopener noreferrer"
+                prefetch={false}
+              >
                 Project 002 <span>-&gt;</span>
-              </a>
+              </Link>
             </h3>
             <p className={inter.className}>
               Graduation project from the{' '}
@@ -141,9 +147,14 @@ export default function Home() {
 
           <div className={styles.card}>
             <h3 className={inter.className}>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="project001.png"
+                target="_blank"
+                rel="noopener noreferrer"
+                prefetch={false}
+              >
                 Project 001 <span>-&gt;</span>
-              </a>
+              </Link>
             </h3>
             <p className={inter.className}>
               Graduation project from the{' '}
