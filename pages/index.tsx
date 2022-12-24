@@ -76,38 +76,6 @@ export default function Home() {
           <div className={styles.card}>
             <h3 className={inter.className}>
               <a
-                href="https://yungrari.github.io/bccn-preview"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Project 005 <span>-&gt;</span>
-              </a>
-            </h3>
-            <p className={inter.className}>
-              Digital Culture and Ethics of AI 3D Web application to visually
-              communicate convergence of visual art, information technologies
-              such as AI, brain-computer interfaces (BCI) and cybersecurity as a
-              core ideas of the Digital Culture and Ethics of AI project. The
-              multidisciplinary synthesis project was presented and initiated in
-              Berlin during Research Winter School &quot;Ethics of Neuroscience
-              and AI&quot; 2021 at Charité – Berlin University of Medicine,
-              Bernstein Center for Computational Neuroscience Berlin (BCCN).
-              Project is currently represented on{' '}
-              <a
-                href="https://ebrains.eu/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                ebrains.eu
-              </a>{' '}
-              Community Science Market EBRAINS is a new digital research
-              infrastructure, created by the EU-funded Human Brain Project
-            </p>
-          </div>
-
-          <div className={styles.card}>
-            <h3 className={inter.className}>
-              <a
                 href="https://yungrari.github.io/vanilla-covid-map"
                 target="_blank"
                 rel="noopener noreferrer"
