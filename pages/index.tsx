@@ -45,100 +45,57 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <div className={styles.card}>
-            <h3 className={inter.className}>
-              <a
-                href="https://galagan.ua/en/project/kyivgaz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Project 004 <span>-&gt;</span>
-              </a>
-            </h3>
-            <p className={inter.className}>
-              Created in collaboration with{' '}
-              <a
-                href="https://galagan.ua/en"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Galagan branding agency
-              </a>
-              . Rebranding of Kyivgaz. Logotype. Brand identity.
-            </p>
-          </div>
+          <Link
+            href="001.mp3"
+            prefetch={false}
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+              #WOD Type Beat 001 <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>#INSTRUMENTAL #FREE</p>
+          </Link>
 
-          <div className={styles.card}>
-            <h3 className={inter.className}>
-              <a
-                href="https://galagan.ua/en/project/conferma"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Project 003 <span>-&gt;</span>
-              </a>
-            </h3>
-            <p className={inter.className}>
-              Created in collaboration with{' '}
-              <a
-                href="https://galagan.ua/en"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Galagan branding agency
-              </a>
-              . Brand new identity from scratch for an Italian furniture
-              company. Logotype. Design.
-            </p>
-          </div>
+          <Link
+            href="002.mp3"
+            prefetch={false}
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+              #WOD Type Beat 002 <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>#INSTRUMENTAL #FREE</p>
+          </Link>
 
-          <div className={styles.card}>
-            <h3 className={inter.className}>
-              <Link
-                href="project002.jpg"
-                target="_blank"
-                rel="noopener noreferrer"
-                prefetch={false}
-              >
-                Project 002 <span>-&gt;</span>
-              </Link>
-            </h3>
-            <p className={inter.className}>
-              Graduation project from the{' '}
-              <a
-                href="https://prjctr.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Projector — Creative & Tech Online Institute
-              </a>
-              . Code. Design.
-            </p>
-          </div>
+          <Link
+            href="003.mp3"
+            prefetch={false}
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+              #WOD Type Beat 003 <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>#INSTRUMENTAL #FREE</p>
+          </Link>
 
-          <div className={styles.card}>
-            <h3 className={inter.className}>
-              <Link
-                href="project001.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                prefetch={false}
-              >
-                Project 001 <span>-&gt;</span>
-              </Link>
-            </h3>
-            <p className={inter.className}>
-              Graduation project from the{' '}
-              <a
-                href="https://svc.com.ua"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                School of Visual Communication
-              </a>
-              . Poster. Print. 420 x 594 mm.
-            </p>
-          </div>
+          <Link
+            href="004.mp3"
+            prefetch={false}
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+              #WOD Type Beat 004 <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>#INSTRUMENTAL #FREE</p>
+          </Link>
         </div>
       </main>
     </>
