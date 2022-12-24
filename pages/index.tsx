@@ -76,7 +76,7 @@ export default function Home() {
           <div className={styles.card}>
             <h3 className={inter.className}>
               <a
-                href="https://yungrari.github.io/vanilla-covid-map"
+                href="https://galagan.ua/en/project/kyivgaz"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -84,15 +84,15 @@ export default function Home() {
               </a>
             </h3>
             <p className={inter.className}>
-              Graduation project from the{' '}
+              Created in collaboration with{' '}
               <a
-                href="https://prjctr.com"
+                href="https://galagan.ua/en"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Projector — Creative & Tech Online Institute
+                Galagan branding agency
               </a>
-              . Code. Design.
+              . Rebranding of Kyivgaz. Logotype. Brand identity.
             </p>
           </div>
 
@@ -122,24 +122,20 @@ export default function Home() {
 
           <div className={styles.card}>
             <h3 className={inter.className}>
-              <a
-                href="https://galagan.ua/en/project/kyivgaz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 Project 002 <span>-&gt;</span>
               </a>
             </h3>
             <p className={inter.className}>
-              Created in collaboration with{' '}
+              Graduation project from the{' '}
               <a
-                href="https://galagan.ua/en"
+                href="https://prjctr.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Galagan branding agency
+                Projector — Creative & Tech Online Institute
               </a>
-              . Rebranding of Kyivgaz. Logotype. Brand identity.
+              . Code. Design.
             </p>
           </div>
 
