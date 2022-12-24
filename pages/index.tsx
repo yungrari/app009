@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import { Inter, Unbounded } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
+const unbounded = Unbounded({ weight: '700', subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -29,42 +30,12 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <span className={unbounded.className}>SOUNDCLOUD</span>
+
             <div className={styles.linkLogo}>
               <Image
                 src="/soundcloud.svg"
                 alt="SoundCloud"
-                width={48}
-                height={48}
-                priority
-              />
-            </div>
-          </a>
-
-          <a
-            href="https://github.com/yungrari"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className={styles.linkLogo}>
-              <Image
-                src="/github.svg"
-                alt="GitHub"
-                width={48}
-                height={48}
-                priority
-              />
-            </div>
-          </a>
-
-          <a
-            href="https://twitter.com/fucceveryb0dy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className={styles.linkLogo}>
-              <Image
-                src="/twitter.svg"
-                alt="Twitter"
                 width={48}
                 height={48}
                 priority
